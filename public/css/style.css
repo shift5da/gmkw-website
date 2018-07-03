@@ -1,6 +1,5 @@
-/*@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
-@import url(http://fonts.googleapis.com/css?family=Glegoo);*/
+
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -948,15 +947,26 @@ article {
 }
 
 .single-post {
-  padding: 80px 0 20px;
+  padding: 0px 0 20px;
 }
 
 .single-post .post-content {
   padding: 40px 0;
 }
 
+.single-post .post-content p {
+  text-indent: 30px;
+  line-height: 30px;
+}
+
+.single-post .post-content .post-img {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .single-post .post-content ol li, .single-post .post-content ul li {
-  color: #666;
+  /*color: #666;*/
 }
 
 .single-post .media {
@@ -1434,5 +1444,3 @@ px      68    160    252    */
 ------------------------------------------------------------
 cols    1     2      3      4      5
 px      68    160    252    344    436    */
-
-/*# sourceMappingURL=maps/style.css.map */

@@ -34,5 +34,13 @@ get '/products' do
 end
 
 get '/solutions/:id' do
-  erb "solution_#{params['id']}".to_sym
+  erb "solutions/solution_#{params['id']}".to_sym
+end
+
+get '/news' do
+  erb :news
+end
+
+get '/news/:id' do
+  erb "news/news_#{params['id']}".to_sym
 end
