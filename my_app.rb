@@ -25,9 +25,9 @@ get '/about_company' do
   erb :about_company, :layout => :layout_no_contact
 end
 
-get '/news' do
-  erb :news
-end
+# get '/news' do
+#   erb :news
+# end
 
 get '/products' do
   erb :products
